@@ -1,0 +1,45 @@
+---
+title: "Mi presentacion"
+subtitle: "Prueba de presentacion"
+author: "Ulises Ehatl Juarez Figueroa"
+institute: "Instituto Nacional de Pediatria"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: [useR, useR-fonts]
+    self_contained: true
+    nature:
+      ratio: "16:9"
+---
+
+```{r xaringanExtra-clipboard, echo=FALSE}
+#No quitar! es para que aparezca la opcion de copy en el codigo
+xaringanExtra::use_clipboard()
+```
+
+
+# Titulo nivel 1
+
+Contenido
+
+---
+
+# Titulo nivel 1
+
+Contenido
+
+## Titulo nivel 2
+
+Contenido
+
+---
+
+# Mi nueva nueva diapositiva
+
+Algo de texto
+
+```{r}
+1+3
+```
+
+---
